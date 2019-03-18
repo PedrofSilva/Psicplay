@@ -29,7 +29,7 @@ header{
 
 .banner{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -42,6 +42,10 @@ header{
 /* Fim do Header */
 
 /* Textos, Bordas, Cores */
+@font-face {
+     font-family: Joystix;
+     src: url('font/Joystix.ttf');
+}
 
 .text-orange{
     color: rgb(242, 123, 7);
