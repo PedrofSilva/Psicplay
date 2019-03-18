@@ -1,0 +1,55 @@
+body{
+    font-family: 'Joystix', sans-serif;
+}
+
+/* HEADER */
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0 , 0, 0, 0.9)), 
+    url(imagens/img-header-teste.jpg) no-repeat center center / cover;
+}
+/* NAVBAR */
+.menu-item{
+    font-family: 'Montserrat', sans-serif;
+}
+.line1, .line2, .line3{
+   width: 23px;
+   height: 3px;
+   margin: 5px; 
+   transition: all 0.4s;
+}
+
+.nav-menu{
+    background:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    transition: all 0.7s;
+}
+/* Fim do NAVBAR */
+
+/* BANNER */
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+
+/* Fim do BANNER */
+
+
+/* Fim do Header */
+
+/* Textos, Bordas, Cores */
+
+.text-orange{
+    color: rgb(242, 123, 7);
+}
+
+.underline{
+    width: 150px;
+    border: 3px solid rgb(242, 123, 7);
+    margin: auto;
+}
+/* Textos, Bordas, Cores */

@@ -10,47 +10,101 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="font/joystix monospace.ttf">
    
     <title>Psicplay</title>
   </head>
   <body>
     <!--Header-->
-    <section id="home">
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg fixed-top nav-menu bg-dark">
-        <a href="#" class="navbar-brand text-light text-uppercase">
-          <span class="h3 text-wwight-bold">Psic</span><span class="h2 text-warning">play</span></a>
-          <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-              <div class="bg-light line1"></div>
-              <div class="bg-light line2"></div>
-              <div class="bg-light line3"></div>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a data-scroll href="#home" class="nav-link m-2 menu-item">Home</a>
-              </li>
-              <li class="nav-item">
-                <a data-scroll href="#Empresa" class="nav-link m-2 menu-item">Empresa</a>
-              </li>
-              <li class="nav-item">
-                <a data-scroll href="#Jogos" class="nav-link m-2 menu-item">Jogos</a>
-              </li>
-              <li class="nav-item">
-                <a data-scroll href="#Contato" class="nav-link m-2 menu-item">Contato</a>
-              </li>
-            </ul>
-          </div>
-      </nav>
-      <!--Fim do Navbar-->
-    </section>
+    <header>
+      <section id="home">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top nav-menu bg-dark">
+          <a href="#" class="navbar-brand text-light text-uppercase ml-3">
+            <img src="imagens/psicplay_logo_slim.png" width="50"></a>
+            <!--<span class="h3 text-wwight-bold">Psic</span><span class="h2 text-warning">play</span></a>-->
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <div class="bg-light line1"></div>
+                <div class="bg-light line2"></div>
+                <div class="bg-light line3"></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a data-scroll href="#home" class="nav-link m-2 menu-item text-light">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a data-scroll href="#Empresa" class="nav-link m-2 menu-item text-light">Empresa</a>
+                </li>
+                <li class="nav-item">
+                  <a data-scroll href="#Jogos" class="nav-link m-2 menu-item text-light">Jogos</a>
+                </li>
+                <li class="nav-item">
+                  <a data-scroll href="#Contato" class="nav-link m-2 menu-item text-light">Contato</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!--Fim do Navbar-->
+
+        <!--Banner-->
+        <div class="text-light text-md-right text-center banner">
+            <img src="imagens/psicplay_logo_editada_branca.png" width="350">
+            <!--<h1 class="display-4">Bem Vindo!
+              <span class="text-uppercase">Psic</span><span class="display-3 text-orange">play</span>
+            </h1>
+            <p class="lead banner-par"> Lorem ipsum dolor sit amet.</p>-->
+        </div>
+        <!--Fim do Banner-->
+      </section>
+    </header>
     <!--Fim do Header-->
+
+    <!--Empresa-->
+    <section class="p-5 mission" id="empresa"> 
+      <div class="container-fluid">
+        <!--Titulo-->
+        <div class="row text-muted text-center">
+          <div class="col m-4">
+            <h1 class="display-4 text-dark">Empresa</h1>
+            <div class="underline mb-5"></div>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Nobis illo dolorum modi, eaque sapiente harum a animi eius
+               maiores dolores necessitatibus, quas quam suscipit nam neque ea, 
+               earum perspiciatis distinctio?</p>
+          </div>
+        </div>
+        <!--Fim do Titulo-->
+        <div class="row my-2">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-gamepad fa-5x text-orange"></i>
+            <h1 class="text-dark mt-3">Conheça</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum placeat nulla,
+               sunt ullam distinctio recusandae necessitatibus accusantium consequuntur odio.</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <i class="fab fa-google-play fa-5x text-orange"></i>
+              <h1 class="text-dark mt-3">Jogos</h1>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum placeat nulla,
+                 sunt ullam distinctio recusandae necessitatibus accusantium consequuntur odio.</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <i class="far fa-handshake fa-5x text-orange"></i>
+              <h1 class="text-dark mt-3">Parceria</h1>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum placeat nulla,
+                 sunt ullam distinctio recusandae necessitatibus accusantium consequuntur odio.</p>
+          </div>                
+        </div>
+      </div>
+    </section>
+    <!--Fim da Empresa-->
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
     <script src="smooth-scroll.min.js"></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
