@@ -1,7 +1,6 @@
 body{
     font-family: 'Joystix', sans-serif;
 }
-
 /* HEADER */
 header{
     height: 100vh;
@@ -38,8 +37,21 @@ header{
 
 /* Fim do BANNER */
 
-
 /* Fim do Header */
+
+
+/* Jogos */
+#jogos{
+ 
+}
+.img-gif-hugo{
+    
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+}
+/* Fim do Jogos */
+
 
 /* Textos, Bordas, Cores */
 @font-face {
@@ -57,3 +69,4 @@ header{
     margin: auto;
 }
 /* Textos, Bordas, Cores */
+
