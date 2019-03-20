@@ -1,5 +1,7 @@
 body{
-    font-family: 'Joystix', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Joystix', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
 }
 /* HEADER */
 header{
@@ -70,6 +72,10 @@ header{
     width: 150px;
     border: 3px solid rgb(242, 123, 7);
     margin: auto;
+}
+
+.text-joystix{
+    font-family: 'Joystix', sans-serif;
 }
 /* Textos, Bordas, Cores */
 
