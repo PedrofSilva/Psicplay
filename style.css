@@ -44,12 +44,15 @@ header{
 #jogos{
  
 }
-.img-gif-hugo{
+
+@media (min-width: 992px) {
     
+    .img-gif-hugo{
+    height: 215px;
     bottom: 0%;
-    left: 0%;
-    position: absolute;
+    }
 }
+
 /* Fim do Jogos */
 
 
