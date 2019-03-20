@@ -8,10 +8,10 @@
     <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/psicplay_logo_slim.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="font/joystix monospace.ttf">
    
     <title>Psicplay</title>
   </head>
@@ -35,26 +35,29 @@
                   <a data-scroll href="#home" class="nav-link m-2 menu-item text-light">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a data-scroll href="#Empresa" class="nav-link m-2 menu-item text-light">Empresa</a>
+                  <a data-scroll href="#empresa" class="nav-link m-2 menu-item text-light">Empresa</a>
                 </li>
                 <li class="nav-item">
-                  <a data-scroll href="#Jogos" class="nav-link m-2 menu-item text-light">Jogos</a>
+                  <a data-scroll href="#jogos" class="nav-link m-2 menu-item text-light">Jogos</a>
                 </li>
                 <li class="nav-item">
-                  <a data-scroll href="#Contato" class="nav-link m-2 menu-item text-light">Contato</a>
+                  <a data-scroll href="#contato" class="nav-link m-2 menu-item text-light">Contato</a>
                 </li>
               </ul>
             </div>
         </nav>
         <!--Fim do Navbar-->
-
+        
         <!--Banner-->
-        <div class="text-light text-md-right text-center banner">
-            <img class="img-fluid" src="imagens/psicplay_logo_editada_branca.png" width="150">
-            <!--<h1 class="display-4">Bem Vindo!
-              <span class="text-uppercase">Psic</span><span class="display-3 text-orange">play</span>
-            </h1>
-            <p class="lead banner-par"> Lorem ipsum dolor sit amet.</p>-->
+        <div class="text-light text-center banner py-5">
+            <div>
+            <img class="img-fluid mb-4" src="imagens/psicplay_logo_editada_branca.png" width="150">
+            </div> 
+            <a data-scroll href="#jogos">
+            <button type="button" class="btn btn-outline-light border-px btn-lg py-4 px-5">
+              <h2 class=" text-uppercase font-weight-bold">Jogos</h2>
+            </button>
+            </a>
         </div>
         <!--Fim do Banner-->
       </section>
@@ -108,17 +111,44 @@
             <h1 class="text-white text-uppercase font-weight-bold">Jogos</h1>
             <div class="underline mb-5"></div>
           </div>
+          </div>
+      <!--Fim do Titulo-->
+        <div class="row text-white text-center">
           <div class="col-12 col-md-12 text-joystix">
-            <p class="lead">Oi, meu nome é Hugo. Você está ocupado agora?</p>
+            <p class="lead">Oi, meu nome é Hugo. <br>Você está ocupado agora?</p>
           </div>
           <div class="col-12 col-md-12">
             <img src="imagens/gif-hugo.gif" class="img-gif-hugo img-fluid">
           </div>
         </div>
-        <!--Fim do Titulo-->
       </div>
     </section>
 
+    <!--Contato-->
+    <section class="bg-white" id="contato">
+      <div class="container-fluid contact-color-gradient text-white">
+        <div class="row">
+          <div class="col-lg-5 pb-4">
+            <h3 class="display-4 text-center text-white mt-5">Contato</h3>
+            <div class="underline-white mb-5"></div>
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control my-2 p-2 input" placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control my-2 p-2 input" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control input"></textarea>
+                <label for="check" class="text-white">Escreva sua mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-block font-weight-bold text-uppercase submit-botton text-dark p-2">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fim do Contato-->
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
