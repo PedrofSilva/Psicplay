@@ -1,8 +1,7 @@
-
-
-
-
-
+    $('.nav-button').click(function() {
+        $('.nav-button').toggleClass('change');
+    });
+    
     function addClass(el) {
         menu.removeClass('nav-active border-link-active');
         $(el).addClass('nav-active border-link-active');
