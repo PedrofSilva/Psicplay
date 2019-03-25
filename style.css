@@ -38,6 +38,16 @@ header{
     color: #e17006;
     transition: all 0.4s;
 }
+
+.border-link{
+    border-bottom: 3px solid transparent;
+}
+
+.border-link-active{
+    width: 80%;
+    border-bottom: 3px solid #e17006;
+}
+
 /* Fim do NAVBAR */
 
 /* BANNER */

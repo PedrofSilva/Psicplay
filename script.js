@@ -4,8 +4,8 @@
 
 
     function addClass(el) {
-        menu.removeClass('nav-active');
-        $(el).addClass('nav-active');
+        menu.removeClass('nav-active border-link-active');
+        $(el).addClass('nav-active border-link-active');
     };
 
     var menu = $('.nav-item a');
