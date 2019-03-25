@@ -18,7 +18,7 @@
 
         var currentElement;
         $(sectionPositions).each(function (i) {
-            if (scroll > this - 50) currentElement = menu[i];
+            if (scroll > this - 150) currentElement = menu[i];
         });
         currentElement && addClass(currentElement);
     });

@@ -21,8 +21,22 @@ header{
 }
 
 .nav-menu{
-    background:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background:  linear-gradient(rgba(255, 255, 255, 0.9), rgba(231, 231, 231, 0.9));
     transition: all 0.7s;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.nav-link:hover{
+    color: #e17006;
+    transition: all 0.4s;
+}
+
+.nav-active{
+    color: #e17006;
+    transition: all 0.4s;
 }
 /* Fim do NAVBAR */
 
@@ -114,6 +128,19 @@ header{
 /* Fim do Contato */
 
 
+/* Footer */
+.footer-link {
+    color:#eee;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+
+.footer-link:hover {
+   color: #e17006;
+   text-decoration: none;
+}
+/* Fim do Footer */
+
 /* Textos, Bordas, Cores */
 @font-face {
      font-family: Joystix;
@@ -148,6 +175,10 @@ header{
 
 .border-px{
     border: 3px solid #fff;
+}
+
+.bg-orange{
+    background:#e17006;
 }
 
 /* Textos, Bordas, Cores */
