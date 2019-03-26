@@ -126,7 +126,7 @@
                 <img src="imagens/img-avoid-google.png" class="pb-3" width="200"> 
               </div>
               <div class="col-12 col-md-12">
-                <a href="https://play.google.com/store/apps/details?id=com.jogo.avoid">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jogo.avoid">
                   <img src="imagens/google-play-badge-01.png" class="pb-3" width="200">
                 </a>
               </div>
@@ -223,15 +223,15 @@
     <script src="script.js"></script>
     <script src="smooth-scroll.min.js"></script>
     <script type="text/javascript">
-    $('.navbar-nav a[href^="#"]').on('click', function(e) {
-      e.preventDefault();
-      var id = $(this).attr('href'),
-          targetOffset = $(id).offset().top;
-          
-      $('html, body').animate({ 
-        scrollTop: targetOffset - 100
-      }, 500);
-    });
+        $('.navbar-nav a[href^="#"]').on('click', function(e) {
+          e.preventDefault();
+          var id = $(this).attr('href'),
+              targetOffset = $(id).offset().top;
+              
+          $('html, body').animate({ 
+            scrollTop: targetOffset - 100
+          }, 500);
+        });
     </script>
   </body>
 </html>
